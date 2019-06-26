@@ -75,7 +75,7 @@ In this assignment our mission is to produce an API server that will expose 2 or
 
 ### Special Rules
 - Well, usually API endpoints are based exclusively on a single protocol, HTTP1. However, our API is intended to support at least two protocols. We suggest to publish a subscription to a topic for notifications or creating some streaming channel based on HTTP2. 
-- Regarding multi-protocol APIs you can have a look on [this post](https://techblog.fexcofts.com/2018/07/03/no-rest-for-us-new-api-architectures/).
+- Regarding multi-protocol APIs you can have a look on [this post](FTS-advert-office.pdf).
 - Some examples of protocols for an API are: HTTP1, HTTP2, AMQP, MQTT, etc.
 - In any case the client (we prefer the term *API Consumer* ) should consume somehow all the endpoints available in the API regardless the implemented protocol.
 - It is not needed that every endpoint in the API server implement several protocols. 1 protocol per each endpoint is OK. For instance, your service has three HTTP endpoints for CRUD and 2 AMQP endpoints for notifications and alerts. That would be OK to us.
