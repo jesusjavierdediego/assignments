@@ -19,7 +19,7 @@ We recommend you to pay special attention to the structure of the project, segre
 Please illustrate your assignment with additional information. We're interested on your approach to solve problems.
 
 ## 4-Technological Landscape
-Please have a look on our ![flyer](https://devportal.fexcofts.com/pdf/FTS-advert-office.pdf). You can find in there the set of tools and technologies we are interested on. This is important as we are already working with this stack.
+Please have a look on our [flyer](https://github.com/jesusjavierdediego/assignments/blob/master/FTS-advert-office.pdf). You can find in there the set of tools and technologies we are interested on. This is important as we are already working with this stack.
 
 ## 5-Common Rules
 Some essential things are expected by default. Git, Git workflows, quality, automated testing (TDD and BDD), knowledge about networks, infrastructure, computing, network protocols, SDLC, ALM, etc are common terms in the software engineering world. Please review your assignments accordingly to this common language by considering these aspects in your introduction.
