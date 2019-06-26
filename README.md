@@ -5,7 +5,7 @@ Congratulations! You have been selected for the next phase of the selection proc
 
 This phase consists of the making of a small software project. The true objective of this task is to have an opportunity for a discussion about your technical skills as well as your approach to the solution of software engineering problems.
 
-There are three options. You should pick up one only. Regardless what is your assignment you should follow always the same criteria:
+There are several options for your assigment. You should pick up one only. Regardless what is your assignment you should follow always the same criteria below:
 
 ## 1-Write the Requirements
 You are in charge and you formulate the specific requirements. Use Functional (FR) and Not Functional Requirements (NFRs) in your wish list. For instance performance, responsiveness, concurrency, etc although some times you'll see some NFRs in the description of the assignment.
@@ -24,7 +24,7 @@ Please have a look on our [flyer](https://github.com/jesusjavierdediego/assignme
 ## 5-Common Rules
 Some essential things are expected by default. Git, Git workflows, quality, automated testing (TDD and BDD), knowledge about networks, infrastructure, computing, network protocols, SDLC, ALM, etc are common terms in the software engineering world. Please review your assignments accordingly to this common language by considering these aspects in your introduction.
 
-## 5-The Assignment Session. You're the star!
+## 6-Ready for the Assignment Session? You're the star!
 We'll meet and you'll start with a short presentation (around 15 minutes) explaining the requirements your wrote, your plan for the project, your approach to the problem, your quality criteria and tools and so on. It would be ideal if you show how your project actually works. Be brief and prepare the introduction to your assignment previously. You can expect some questions about specific details in code, organization, technical decisions, architecture or the followed approach.
 
 After your presentation we'll have a brief discussion about your work and we'll ask some questions from your code. It's simple!
