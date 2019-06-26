@@ -9,14 +9,23 @@ There are three options. You should pick up one only. Regardless what is your as
 
 ## 1-Write the Requirements
 You are in charge and you formulate the specific requirements. Use Functional (FR) and Not Functional Requirements (NFRs) in your wish list. For instance performance, responsiveness, concurrency, etc although some times you'll see some NFRs in the description of the assignment.
-We recommend you using the Gherkin syntax to write the requirements (FRs and NFRs).
+We strongly recommend you using the Gherkin syntax to write the requirements (FRs and NFRs). Never forget to attach your Gherkin test scenarios to real working testing code in your assignment.
 
 ## 2-Follow a Quality Driven Methodology
 Write the code following the procedure, methodology and quality approach you consider is the best one for your project. Please include comments to illustrate decisions, solutions and approaches. 
 We recommend you to pay special attention to the structure of the project, segregation of tasks and clarity of the code.
 
-## 3-The Session. You're the star!
-We'll meet and you'll start with a short presentation (around 15 minutes) explaining the requirements your wrote, your plan for the project, your approach to the problem, your quality criteria and tools and so on. It would be ideal if you show how your project actually works. 
+## 3-Be explicit
+Please illustrate your assignment with additional information. We're interested on your approach to solve problems.
+
+## 4-Technological Landscape
+Please have a look on our ![flyer](https://devportal.fexcofts.com/pdf/FTS-advert-office.pdf). You can find in there the set of tools and technologies we are interested on. This is important as we are already working with this stack.
+
+## 5-Common Rules
+Some essential things are expected by default. Git, Git workflows, quality, automated testing (TDD and BDD), knowledge about networks, infrastructure, computing, network protocols, SDLC, ALM, etc are common terms in the software engineering world. Please review your assignments accordingly to this common language by considering these aspects in your introduction.
+
+## 5-The Assignment Session. You're the star!
+We'll meet and you'll start with a short presentation (around 15 minutes) explaining the requirements your wrote, your plan for the project, your approach to the problem, your quality criteria and tools and so on. It would be ideal if you show how your project actually works. Be brief and prepare the introduction to your assignment previously. You can expect some questions about specific details in code, organization, technical decisions, architecture or the followed approach.
 
 After your presentation we'll have a brief discussion about your work and we'll ask some questions from your code. It's simple!
 
@@ -31,7 +40,7 @@ Remember the goal is to give us an idea of your personal and special way of unde
 
 **You're special**
 
-We do not expect here the N version of a Spring-based project (no, not again!). Be original, follow your instinct and plan something new. It is not perfect, it is clearly improvable. Well, it is not a problem. There are not restrictions. Use the language, framework and approach you consider is the best one for your project.
+We do not expect here another Spring-based project (no, not again!). Be original, follow your instinct and plan something new. It is not perfect, it is clearly improvable. Well, it is not a problem to us. The case here is to show us your skills to solve probelms and the ability to carry out a software project based on high quality standards while providing agility, performance and efficiency.
 
 
 **Think of the whole process**
@@ -41,10 +50,12 @@ Try not thinking as a pure developer whose concern is only to write functional c
 
 **Read everything!**
 
-Have a look on the three options for assignments and choose your favourite one. Please read carefully all the sections in the assignment to avoid confusions. 
+Have a look below on the different options for assignments and choose your favourite one. Please read carefully all the sections in the chosen assignment option to avoid confusions. 
 
 
 **Any doubt?**
+
+Do not hesitate to send us your questions to clarify any aspect of the assignment or the methodology.
 
 For any question send an email to jdediego@fexco.com, fmuno@fexco.com or tmacsweeney@fexco.com
 
@@ -55,7 +66,7 @@ Besides, you can read our [FTS Techblog](https://techblog.fexcofts.com/) to be m
 
 # Assignments
 
-## Option 1: The API and the Consumer
+## Option 1: The API and the Front-End Consumer
 
 ### Description
 In this assignment our mission is to produce an API server that will expose 2 or more endpoints or services. These endpoints will implement some regular CRUD functions with data to be consumed by a public API consumer (e. g. a public web site).
@@ -68,6 +79,7 @@ In this assignment our mission is to produce an API server that will expose 2 or
 - Some examples of protocols for an API are: HTTP1, HTTP2, AMQP, MQTT, etc.
 - In any case the client (we prefer the term *API Consumer* ) should consume somehow all the endpoints available in the API regardless the implemented protocol.
 - It is not needed that every endpoint in the API server implement several protocols. 1 protocol per each endpoint is OK. For instance, your service has three HTTP endpoints for CRUD and 2 AMQP endpoints for notifications and alerts. That would be OK to us.
+- Remember: DONE MEANS RELEASED! The assignment target is to provide a released component or component to Live.This rule has to be a constant in your assignment. 
 
 
 ### Requirements
@@ -85,14 +97,52 @@ We'd like to see:
 
 
 
+## Option 2: Multi-Distribution Front End Application
 
-## Option 2: Extract, Transform, Load!
+### Description
+This case is peculiar as it is focused on the Front End side of things. However, this is not about a common regular JS webapp or something like that. We're talking here about a complete killer app that will be distributed in different flavours: web, desktop and mobile.
+
+### Special Rules
+We're interested about how you consume an API (of course) but the target here is your ability to design and develop the whole distribution set of an app. Please read carefully the requirements below.
+E2E, and all types of functional and not functional tests are dramatically important. Do not forget to include them into the assignment.
+The number of features can small but all of them have to be completely covered by quality rules and tests. The 
+
+
+### Requirements
+1-Web version. The app can be accessed via most used web browsers with no loss of features: Firefox, Chrome, Safari, Edge.
+
+2-Desktop version. The app is distributed with a desktop version. That means it has to be able to be downloaded and installed to desktop main OSs (Windows and Linux). 
+
+3-The app has to be able to remain functional even when there is not connection to Internet. Yes, we mean offline features. Besides, the app has to be able to detect the cnnection is available again and synchronize data with the Back End.
+
+4-Usability and User Experience are key aspects. The app has to be easy and intuitive for not-trained users.
+
+5-How to display large amounts of data. The app will show somewhere a long list of records. The list has to be responsive, low-latency and really easy to use.
+
+6-Mobile app. The app should be ready to be published to main mobile app stores (Google Play and Apple Store). The model can ca hybrid or native.
+
+7-SDLC for a multi-target distribution can be complex. Please include in your assignment your preferred approach for this area as well as a basic implementation at least.
+
+
+### Expected Deliverables
+
+1-Web applictaion
+
+2-Desktop appliation
+
+3-Mobile application 
+
+4-SDLC proposal and basic implementation (minimum)
+
+
+
+## Option 3: Extract, Transform, Load large amounts of data
 
 ### Description
 Probably you've guessed the main topic of this assignment from the header. Yes, it's about the infamous ETL processes world. The assignment consists of the making of an ETL applications that esentally:
 
 1. It gets the data from a source data storage.
-2. It applies one or several transformations of the content or the formats.
+2. It applies one or several transformations of the content or the formats in a meaningful way that cost some processing time.
 3. Finally, it loads the result of the transformation to a one or several destination data storages.
 
 
@@ -119,7 +169,7 @@ We'd like to see:
 
 
 
-## Option 3: Microservice in Kubernetes
+## Option 4: A Microservice in Kubernetes
 
 ### Description
 The goal of this assigment gathers a software component with IaC. Our mission is to develop an application as a microservice, following the main guidelines of the Micro Services Architecture (MSA). There is not any requirement about the implemented protocols but we'd like to see here is a good, solid, robust and efficient microservice, completely autonomous and containing all the features we could find in the best examples of microservices around the world.
